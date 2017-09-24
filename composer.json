@@ -5,7 +5,8 @@
   "prefer-stable": true,
   "minimum-stability": "dev",
   "require": {
-    "elgg/elgg": "2.3.4"
+    "elgg/elgg": "2.3.4",
+    "sunra/php-simple-html-dom-parser": "1.5.2"
   },
   "require-dev": {
     "srokap/code_review": "^1.0.5",

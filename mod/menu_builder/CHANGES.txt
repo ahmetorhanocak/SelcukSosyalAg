@@ -1,0 +1,124 @@
+Version Information
+===================
+
+3.0.1 (2016-02-24):
+
+- fixed: fallback to default tab if not a managed menu
+- fixed: get correct menu item name if li has multiple classes
+
+3.0 (2016-02-24):
+
+- added: activate script to add default menu items to the site menu so it can be configured
+- added: caching of menu items html
+- added: composer support
+- added: drag-n-drop reordering of menu-items on backend
+- added: plugin setting to reimport the site menu
+- added: reinstated the export feature
+- added: reinstated the import functionality
+- added: site menu child menus are now styled
+- added: upgrade of pre 2.0 Elgg menu items
+- added: option to delete menu items
+- added: set selected state on parent menu items
+- changed: export file name now contains the name of the site
+- changed: menu item editor form now shows in a lightbox
+- changed: now using new 1.11 function to check if language key exists
+- changed: refactored functions into classes
+- changed: reorganized new menu and menu delete action
+- changed: tabs now work switching menus in admin page
+- changed: moved menu hook registrations to page setup
+- changed: moved menu management to backend
+- changed: updated Dutch translation
+- fixed: correctly order menu items
+- fixed: delete old menu items after upgrade
+- fixed: do not add action tokens if managing menu items
+- fixed: empty hrefs should not have a href set
+- fixed: deprecated notice for requireconfirmation class fixed
+- fixed: correctly strip site url from the beginning of menu items on save
+- fixed: do not use cached menu data in admin context
+- fixed: invalid cell closure in table
+- fixed: menu item migration needed to ignore access when fetching items
+- fixed: menu items with an empty url should be handled as a elgg-non-link
+- fixed: menu not visible in admin context
+- fixed: no longer piggyback the admin sidebar menu class for styling
+- fixed: unset target to prevent all links to popup in blank
+- fixed: menu items now listen to access level
+- fixed: no longer normalize menu link when editing
+- fixed: only cache if needed
+- fixed: replace variable menu url parts after reading from optionally cached data
+- fixed: show correct access menu on menu items forms
+- removed: completely removed any traces of front end menu management
+- removed: unused hook
+
+2.0:
+
+- changes for Elgg 1.9
+
+1.4 (2014-03-21):
+
+- added: multi level menu's
+- added: support for action property of links
+- added: option to export / import menu items configuration
+- changed: updated to Elgg coding standards
+- fixed: only admins should be able to see menu edit options
+
+1.3 (2013-10-03):
+
+- added: option to add action tokens to menu items
+- added: support for user_guid in url
+- changed: default menu items page now has a notice
+- fixed: setSelected is also applied on parent menu item
+- fixed: more menu items doesn't have a url set on import
+
+1.2 (2013-04-05):
+
+- added: target option to menu items
+- added: plugin setting to enable/disable htmlawed filtering for menu items 
+- changed: better use of core language keys
+- fixed: storage of menu items in site container
+- fixed: menu items with same order disappear
+- fixed: bad urls when elgg is installed in subfolder
+- fixed: some php notices
+
+1.1.1 (2012-07-30):
+
+- changed: updated dutch translations
+- fixed: can't delete menu item
+- fixed: some php warnings
+
+1.1 (2012-02-29):
+
+- added: access option to show menu item only for logged out users
+- added: context toggle options to view (in edit mode) the menu as a normal user or as a logged out user
+- changed: moved access write options to a hook
+
+1.0 (2012-02-20):
+- changed: more code cleanup and elgg code standardization
+- fixed: some minor issues	
+
+1.0 beta (2012-02-06):
+
+- changed: updated for 1.8
+	
+0.3.2 (2011-04-14):
+
+- fixed: quotes in title break js
+	
+0.3.1 (2011-03-16):
+
+- changed: in edit mode top level menu item edit icon only visible when hovering
+- changed: deleting a menu item is a full jQuery action
+- fixed: default generated menu not using [wwwroot] and [username]
+	 
+0.3 (2011-02-15):
+
+- added: 2 admin actions to clear/import (default) menu items
+- changed: loading of fancybox js to avoid multiple includes
+
+0.2 (2011-01-13):
+
+- added: run once function to create a default menu
+- fixed: incorrect highlighting (selected state) for main menu items
+
+0.1:
+
+- first release

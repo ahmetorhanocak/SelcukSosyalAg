@@ -13,4 +13,3 @@ function duyurular_page_handler() {
 }
 
 elgg_register_event_handler('init', 'system', 'duyurular_init');
-?>

@@ -22,7 +22,7 @@ $turkish = array(
 	'elggchat:session:name:default' => "Sohbet oturumu (%s)",
 	'elggchat:session:onlinestatus' => "Son hareket: %s",
 
-	'elggchat:session_list_introduction' => 'Bu sayfada sitendeki şu an açık olan sohbet oturumlarının listesini görürsün. Bir oturumu \'Detaylar\' butonuyla daha detaylı görebilirsin ya da bir chat otrumunu \'Oturumu sil\' butonu ile silebilirsin.',
+	'elggchat:session_list_introduction' => 'Bu sayfada sitendeki şu an açık olan sohbet oturumlarının listesini görürsün. Bir oturumu \'Detaylar\' butonuyla daha detaylı görebilirsin ya da bir sohbet oturumunu \'Oturumu sil\' butonu ile silebilirsin.',
 	'elggchat:session_details_introduction' => 'Bu sayfada Sohbet Oturumları listesinden seçmiş olduğun oturumun detaylarını görebilirsin. Bu sohbet oturumuna şu an kimin giriş yaptığını ve yollanan bütün sohbet iletilerini görebilirsin. Ayrıca bu sohbet oturumuna bir mesaj ekleyebilirsin. Bu mesaj sistem mesajı olarak ve \'[Adminden mesaj]\' şeklinde görülür.',
 	'elggchat:admin_message' => '[Yöneticiden mesaj]: ',
 	'elggchat:post_admin_message' => 'Bu sohbete mesaj ekle: ',

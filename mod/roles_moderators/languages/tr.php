@@ -5,7 +5,7 @@
  */
 
 $turkish = array(
-	'roles_moderators:role:title' => 'Moderator',	
+	'roles_moderators:role:title' => 'Moderatör',	
 );
 
 add_translation("tr", $turkish);
